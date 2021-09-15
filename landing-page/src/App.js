@@ -20,7 +20,6 @@ function App() {
       <Steps />
       <Signup />
       <Footer />
-      <About />
     </div>
   );
 }
