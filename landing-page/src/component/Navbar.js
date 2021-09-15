@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from "../Assets/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,8 +13,10 @@ const Navbar = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <svg
-            class="w-8 text-deep-purple-accent-400"
+          <img
+            src={logo}
+            alt="company logo"
+            class="w-14 text-deep-purple-accent-400"
             viewBox="0 0 24 24"
             strokeLinejoin="round"
             strokeWidth="2"
@@ -21,14 +24,9 @@ const Navbar = () => {
             strokeMiterlimit="10"
             stroke="currentColor"
             fill="none"
-          >
-            <rect x="3" y="1" width="7" height="12" />
-            <rect x="3" y="17" width="7" height="6" />
-            <rect x="14" y="1" width="7" height="6" />
-            <rect x="14" y="11" width="7" height="12" />
-          </svg>
+          />
           <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            Company
+            MFS Inc.
           </span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -37,9 +35,9 @@ const Navbar = () => {
               href="/"
               aria-label="Our product"
               title="Our product"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
             >
-              Product
+              About Us
             </a>
           </li>
           <li>
@@ -47,35 +45,25 @@ const Navbar = () => {
               href="/"
               aria-label="Our product"
               title="Our product"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
             >
-              Features
+              Blog
             </a>
           </li>
           <li>
             <a
               href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              aria-label="Contact Us"
+              title="Contact Us"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
             >
-              Pricing
+              Contact Us
             </a>
           </li>
           <li>
             <a
               href="/"
-              aria-label="About us"
-              title="About us"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              About us
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-200 hover:bg-blue-400 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
@@ -87,10 +75,10 @@ const Navbar = () => {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-transparent focus:bg-transparent"
             onClick={() => setIsMenuOpen(true)}
           >
-            <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+            <svg class="w-7 text-gray-600 hover:text-blue-400" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
                 d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -116,8 +104,10 @@ const Navbar = () => {
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
+                      <img
+                        src={logo}
+                        alt="company logo"
+                        class="w-14 text-deep-purple-accent-400"
                         viewBox="0 0 24 24"
                         strokeLinejoin="round"
                         strokeWidth="2"
@@ -125,14 +115,9 @@ const Navbar = () => {
                         strokeMiterlimit="10"
                         stroke="currentColor"
                         fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
+                      />
                       <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        MFS INC.
                       </span>
                     </a>
                   </div>
@@ -157,47 +142,37 @@ const Navbar = () => {
                     <li>
                       <a
                         href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="About Us"
+                        title="About Us"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
-                        Product
+                        About Us
                       </a>
                     </li>
                     <li>
                       <a
                         href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="Blog"
+                        title="Blog"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
-                        Features
+                        Blog
                       </a>
                     </li>
                     <li>
                       <a
                         href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        aria-label="Contact Us"
+                        title="Contact Us"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
-                        Pricing
+                        Contact Us
                       </a>
                     </li>
                     <li>
                       <a
                         href="/"
-                        aria-label="About us"
-                        title="About us"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        About us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-700 transition duration-200 rounded shadow-md bg-transparent hover:text-blue-400 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
