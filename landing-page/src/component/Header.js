@@ -15,7 +15,7 @@ const Header = () => {
               </h2>
               <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center space-x-5  ">
               <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
                 <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
               </a>
@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         </div>
         <a
-          href="/"
+          href="#feature1"
           aria-label="Scroll down"
           className="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 duration-300 transform border border-gray-400 rounded-full hover:shadow hover:scale-110"
         >

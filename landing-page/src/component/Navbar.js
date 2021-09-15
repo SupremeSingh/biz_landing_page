@@ -32,7 +32,7 @@ const Navbar = () => {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="/about"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/blog"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -52,7 +52,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/contact"
               aria-label="Contact Us"
               title="Contact Us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -62,7 +62,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="/registration"
               class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-200 hover:bg-blue-400 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
@@ -141,7 +141,7 @@ const Navbar = () => {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
+                        href="/about"
                         aria-label="About Us"
                         title="About Us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -151,7 +151,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/blog"
                         aria-label="Blog"
                         title="Blog"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -161,7 +161,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/contact"
                         aria-label="Contact Us"
                         title="Contact Us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
@@ -171,7 +171,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/registration"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-gray-700 transition duration-200 rounded shadow-md bg-transparent hover:text-blue-400 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
