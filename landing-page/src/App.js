@@ -4,19 +4,18 @@ import Header from "./component/Header";
 import Feature from "./component/Feature";
 import Steps from "./component/Steps";
 import Signup from "./component/Signup";
-import Footer from "./component/Footer";
+import Waitlist from './component/Waitlist';
+import Foot from './component/Foot';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <Feature />
-      <Feature />
+      <Waitlist />
       <Feature />
       <Steps />
-      <Signup />
-      <Footer />
+      <Foot />
     </div>
   );
 }
