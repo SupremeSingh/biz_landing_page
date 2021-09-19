@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         </div>
         <a
-          href="#feature1"
+          href="#"
           aria-label="Scroll down"
           className="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 duration-300 transform border border-gray-400 rounded-full hover:shadow hover:scale-110"
         >

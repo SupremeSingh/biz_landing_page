@@ -3,15 +3,19 @@ import './App.css';
 import Main from "./Main";
 
 import Navbar from "./component/Navbar";
-import Footer from "./component/Footer";
-
+import Header from "./component/Header";
+import Feature from "./component/Feature";
+import Waitlist from './component/Waitlist';
+import Foot from './component/Foot';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Main />
-      <Footer />
+      <Header />
+      <Waitlist />
+      <Feature />
+      <Foot />
     </div>
   );
 }

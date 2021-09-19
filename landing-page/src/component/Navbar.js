@@ -62,8 +62,19 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/registration"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-600 focus:shadow-outline focus:outline-none"
+              href="/"
+              aria-label="About us"
+              title="About us"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              About us
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://eepurl.com/hIzzZn"
+              target="_blank"
+              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-blue-=400 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
