@@ -1,4 +1,7 @@
 import './App.css';
+
+import Main from "./Main";
+
 import Navbar from "./component/Navbar";
 import Header from "./component/Header";
 import Feature from "./component/Feature";

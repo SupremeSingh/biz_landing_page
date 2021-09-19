@@ -15,7 +15,7 @@ const Header = () => {
               </h2>
               <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center space-x-5  ">
               <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
                 <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
               </a>
