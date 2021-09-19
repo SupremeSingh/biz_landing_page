@@ -1,9 +1,6 @@
 import Header from "../component/Header";
 import Feature from "../component/Feature";
-import Steps from "../component/Steps";
 import Signup from "../component/Signup";
-
-
 
 function Home() {
     return (
@@ -12,7 +9,6 @@ function Home() {
         <Feature id="feature1" />
         <Feature id="feature2" />
         <Feature id="feature3" />
-        <Steps />
         <Signup />
       </div>
     );
